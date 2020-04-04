@@ -49,3 +49,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 set number
 set autoindent
+
+set breakindent
+set breakindentopt=shift:2,min:40,sbr
+set showbreak=>>
